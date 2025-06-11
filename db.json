@@ -11,6 +11,12 @@
       "email": "madelaine@example.com",
       "pass": "Made123",
       "id": 2
+    },
+    {
+      "username": "roberta",
+      "email": "roberta@123.com",
+      "pass": "robe",
+      "id": 3
     }
   ]
 }

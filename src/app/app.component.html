@@ -1,3 +1,5 @@
 <app-header *ngIf="!isAuthPage()"></app-header>
 <app-aside-nav *ngIf="!isAuthPage()"></app-aside-nav>
+<app-timeline *ngIf="!isAuthPage()"></app-timeline>
+<app-user-list *ngIf="isAuthPage()"></app-user-list>
 <router-outlet></router-outlet>

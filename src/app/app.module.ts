@@ -11,6 +11,7 @@ import { PostComponent } from './components/post/post.component';
 import { TimelineComponent } from './components/timeline/timeline.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { SignupComponent } from './components/pages/signup/signup.component';
+import { UserListComponent } from './components/user-list/user-list.component';
 
 import { AppRoutingModule } from './app.routing.module';
 
@@ -23,7 +24,8 @@ import { AppRoutingModule } from './app.routing.module';
     PostComponent,
     TimelineComponent,
     ProfileComponent,
-    SignupComponent
+    SignupComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule, AppRoutingModule, FormsModule, HttpClientModule
