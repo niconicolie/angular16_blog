@@ -1,0 +1,48 @@
+<header>
+  <div class="container">
+    <div class="logo" tabindex="0" aria-label="Social Media Home">❖ SocialMe</div>
+    <nav role="navigation" aria-label="Primary Navigation">
+      <a routerLink="timeline" class="active" aria-current="page">Home</a>
+      <a href="#">Following</a>
+      <a href="#">Moderators</a>
+      <a href="#">Notifications</a>
+    </nav>
+    <div class="search-container">
+      <input
+        type="search"
+        aria-label="Search"
+        placeholder="Search"
+        id="site-search"
+        name="search"
+      />
+      <svg
+        class="search-icon"
+        fill="#8e8e8e"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M10 2a8 8 0 105.292 14.79l4.71 4.707 1.414-1.414-4.707-4.711A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"
+        />
+      </svg>
+    </div>
+    <div
+      class="profile"
+      tabindex="0"
+      aria-haspopup="true"
+      aria-expanded="false"
+      aria-label="Profile menu"
+    >
+      <img
+        src="https://randomuser.me/api/portraits/lego/1.jpg"
+        alt="User Profile Picture"
+        id="profile-img"
+      />
+      <div class="dropdown-menu" role="menu" aria-labelledby="profile-img">
+        <a routerLink="profile" role="menuitem" tabindex="-1">Profile</a>
+        <a href="" role="menuitem" tabindex="-1">Settings</a>
+        <a href="login" role="menuitem" tabindex="-1">Logout</a>
+      </div>
+    </div>
+  </div>
+</header>

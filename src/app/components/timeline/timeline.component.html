@@ -1,0 +1,64 @@
+<div clas="new-post-container">
+  <div class="post-box">
+    <form action="" method="POST" enctype="multipart/form-data">
+      <textarea placeholder="What's on your mind?" rows="3"></textarea>
+      <input
+        type="file"
+        accept="image/*"
+        id="fileInput"
+        onchange=""
+      />
+      <label for="fileInput" class="custom-file-label" title="Upload photo">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path
+            d="M20 5h-3.586l-1.707-1.707A.996.996 0 0014 3H10c-.265 0-.52.105-.707.293L7.586 5H4c-1.103 0-2 .897-2 2v11c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V7c0-1.103-.897-2-2-2zM12 17c-2.761 0-5-2.239-5-5 0-2.762 2.239-5 5-5 2.761 0 5 2.238 5 5 0 2.761-2.239 5-5 5z"
+          ></path>
+          <circle cx="12" cy="12" r="2.5"></circle>
+        </svg>
+        Photo
+      </label>
+      <button type="submit">Post</button>
+      <div id="imagePreview" class="image-preview">
+        <img id="preview" src="" />
+      </div>
+    </form>
+  </div>
+</div>
+<div class="container" id="timeline">
+    <div class="post">
+  <div class="post-header">
+    <div class="user-avatar">
+      <img src="/assets/pic.jpg" alt="User's avatar">
+    </div>
+    <div class="user-info">
+      <div class="user-name">abby</div>
+      <div class="post-location">Sweden</div>
+    </div>
+  </div>
+
+  <!--<img class="post-image" src="post_pic.jpg" alt="Post image">-->
+
+  <div class="post-actions">
+    <button class="liked" title="Like" aria-label="Like button" data-post-id="123">❤</button>
+    <button class="saved" title="Save" aria-label="Save button" data-post-id="123">❖</button>
+    <button title="Comment" aria-label="Comment button" data-post-id="123">💬</button>
+  </div>
+
+  <div class="likes-count">123 likes</div>
+  
+  <div class="post-caption">
+    <span class="user-name">Abby</span>My game today
+  </div>
+
+  <div class="post-date">11th October 2006</div>
+
+  <div class="comments">
+    <div class="comment">
+      <span class="user-name">Malie</span> I love this game!
+    </div>
+    <div class="comment">
+      <span class="user-name">Elli</span> Beautiful
+    </div>
+  </div>
+</div>
+</div>
